@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#signInBox {
+    border: 1px dashed #999999;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 320px;
+    margin: 5% auto;
+    padding: 10px;
+    display: none;
+}
+#signInImg {
+    display: block;
+    height: 80px;
+    margin: 10px auto;
+}
+form {
+    margin: 5% auto;
+}
+input[type=text], input[type=password] {
+    width: 60%;
+    margin: 10px 5px 0 5px;
+    padding: 7px 5px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+}
+input[type=button], input[type=submit] {
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #336699;
+    background-color: #336699;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+input[type=button]:hover, input[type=submit]:hover {
+    background-color: darkgreen;
+    border: 1px solid black;
+}
+input[type=button]:hover {
+    background-color: #b90404;
+}
+.validationMsg {
+    height: 10px;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 3px;
+}
+#usernameInput {
+    background: url('../images/user.png') no-repeat right;
+}
+#passwordInput {
+    background: url('../images/lock.png') no-repeat right;
+}
+#usernameInput:hover, #passwordInput:hover {
+    background-color: #fdfdd3;
+}
+#usernameValidation, #passwordValidation, #signInValidation {
+    height: 15px;
+    font-style: italic;
+}
+#usernameValidation, #passwordValidation {
+    color: red;
+}
+#signInValidation {
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px) {
+    #screenMediaWrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #screenMediaWrapper > input {        
+        width: 60%;
+        margin: 5px auto;
+    }
+}

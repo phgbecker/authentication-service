@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-functions.js"></script>
+	<title>Sign In</title>
+</head>
+<body>
+
+	<div id="signInBox">
+		<img id="signInImg" src="./images/unsignedIn.png" alt="SignIn" />
+		<form id="signInForm">
+			<input id="usernameInput" type="text" placeholder="Username" />
+			<div class="validationMsg"><span id="usernameValidation"></span></div>
+
+			<input id="passwordInput" type="password" placeholder="Password" />
+			<div class="validationMsg"><span id="passwordValidation"></span></div>
+
+			<div id="screenMediaWrapper">
+				<input type="button" value="&laquo; Back" />
+				<input type="submit" value="Sign In" />
+			</div>
+
+			<div class="validationMsg"><span id="signInValidation"></span></div>
+		</form>
+	</div>
+
+</body>
+</html>
