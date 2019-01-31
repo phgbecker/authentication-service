@@ -1,1 +1,1 @@
-# Authentication service using Sping Boot, JPA, H2
+# Authentication service using Spring Boot, JPA, H2
