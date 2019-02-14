@@ -1,9 +1,7 @@
 /**
  * Global variables
  */
-let USERNAME = 'phgbecker';
-let PASSWORD = '123456';
-let loadingRequest = '<img src=\"./images/loading.gif\" /> Loading...';
+const loadingRequest = '<img src=\"./images/loading.gif\" /> Loading...';
 
 $(document).ready(function() {  
     /**
@@ -26,7 +24,7 @@ $(document).ready(function() {
                 /**
                  * Build the "User" JSON object
                  */
-                let User = '{ "username" : "' + $('#usernameInput').val() + '", "password" : "' + $('#passwordInput').val() + '" }';
+                const User = '{ "username" : "' + $('#usernameInput').val() + '", "password" : "' + $('#passwordInput').val() + '" }';
                 console.log(User);
 
                 /**
